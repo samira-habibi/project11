@@ -1,0 +1,151 @@
+
+@font-face{
+    font-family: "vazir";
+    src: url(../fonts/Vazir.eot);
+    src: url(../fonts/Vazir.eot?#iefix) format("embedded-opentype");
+    src: url(../fonts/Vazir.woff2) format("woff2");
+    src: url(../fonts/Vazir.woff) format("woff");
+    src: url(../fonts/Vazir.ttf) format("truetype");
+}
+body{
+    font-family: "vazir" !important;
+    background-image: url(../images/bg-dark.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+
+body.dark {
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.line{
+    line-height: 0;
+}
+
+.darkmood{
+    width: 2.5em  !important;
+    height: 1.5rem !important;
+}
+
+.dark-text{
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.dark  .dark-text{
+    color: rgb(54, 53, 53) !important;
+}
+
+
+/* header */
+.header{
+    padding-top: 90px;
+}
+
+  .counters {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .box {
+      width: 150px;
+      height: 130px;
+   
+      border-radius: 12px;
+     
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 1.5px solid rgba(250, 250, 250, 0.908);
+    }
+
+    .number {
+      font-size: 36px;
+      font-weight: bold;
+      color: white;
+      margin-bottom: 5px;
+    }
+    .label {
+      font-size: 16px;
+      color: white;
+    }
+
+@media( max-width :575px){
+    .date div{
+         padding: 10px 0px;
+    margin: 10px 8px;
+    width: 70px;
+
+    }
+
+
+}
+.call a{
+    font-size: 21px;
+    color: white;
+    margin: 0 3px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255 ,0.5);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.4s;
+
+}
+.call a:hover{
+    background-color: rgb(9, 111, 213);
+    border-color: rgb(9, 111, 213);
+}
+/* contact */
+
+.contact hr {
+    width: 80px;
+    height: 5px;
+
+}
+.gray{
+    color: white !important;
+}
+.card{
+    border-bottom: 4px solid   rgb(9, 111, 213);
+    border-top:  4px solid  rgb(9, 111, 213);
+    border-radius: 0.25rem ;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.138);
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgb(0 ,0 ,0 ,12%);
+}
+.card i{
+    font-size: 20px;
+    color: white;
+    width: 44px;
+    height: 44px;
+    background-color: rgb(255, 255, 255 ,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.card i:hover{
+    background-color:rgb(9, 111, 213) ;
+    color: white;
+    border-color: rgb(9, 111, 213);
+}
+
+
+
+	
+	                  
